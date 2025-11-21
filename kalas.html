@@ -3,25 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Hamzes kalas</title>
+
+    <style>
+        body {
+            background-color: blueviolet; /* Lila bakgrund */
+            font-family: Arial, sans-serif;
+            color: black;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center; /* Bara rubriken i mitten */
+            color: black;
+        }
+
+        /* Alla boxar med linje */
+        .box {
+            border: 3px solid black;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: blueviolet; /* Samma färg som bakgrunden */
+        }
+    </style>
 </head>
 <body>
 
 <h1>Hamzes kalas</h1>
 
-<p>Hej! Jag heter Hamze. Jag ska ha ett kalas med mina vänner. Vi ska äta tårta och spela FIFA.</p>
+<p class="box">Hej! Jag heter Hamze. Jag ska ha ett kalas med mina vänner. Vi ska äta tårta och spela FIFA.</p>
 
-<img src="tårta.jpg" alt="Tårta" width="300">
+<div class="box">
+    <img src="tårta.jpg" alt="Tårta" width="300">
+</div>
 
-<h2>Plan för dagen</h2>
-<ul>
+<h2 class="box">Plan för dagen</h2>
+<ul class="box">
   <li>14:00 Gäster kommer</li>
   <li>14:30 Vi äter tårta</li>
   <li>15:00 Vi spelar FIFA</li>
 </ul>
 
-<p>Plats: <a href="https://www.google.com/maps?q=Barcelona" target="_blank">Se platsen här</a></p>
+<p class="box">Plats: <a href="https://www.google.com/maps?q=Barcelona" target="_blank">Se platsen här</a></p>
 
-<p><a href="index.html">Tillbaka till startsidan</a></p>
+<p class="box"><a href="index.html">Tillbaka till startsidan</a></p>
 
 </body>
 </html>
