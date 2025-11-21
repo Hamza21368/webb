@@ -13,7 +13,15 @@
         }
 
         h1 {
-            text-align: center;
+            text-align: center; /* Bara rubriken i mitten */
+        }
+
+        /* Linjer runt allt utom rubriken */
+        .box {
+            border: 3px solid black;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: blueviolet; /* Samma färg som bakgrunden */
         }
     </style>
 </head>
@@ -21,13 +29,14 @@
 
 <h1>Hamzes portfolio</h1>
 
-<p>Hej! Jag heter Hamze och jag är 17 år. Jag gillar att spela FIFA, äta min mammas goda mat och spendera tid med mina vänner. 
+<p class="box">Hej! Jag heter Hamze och jag är 17 år. Jag gillar att spela FIFA, äta min mammas goda mat och spendera tid med mina vänner. 
 På fritiden brukar jag också titta på fotboll, speciellt när Barcelona spelar.</p>
 
-<h2>Om mig</h2>
-<p>Jag tycker om att ha roligt, skratta och vara med folk jag gillar. Jag gillar också att lära mig nya saker inom webbutveckling.</p>
+<h2 class="box">Om mig</h2>
 
-<p><a href="index.html">Tillbaka till startsidan</a></p>
+<p class="box">Jag tycker om att ha roligt, skratta och vara med folk jag gillar. Jag gillar också att lära mig nya saker inom webbutveckling.</p>
+
+<p class="box"><a href="index.html">Tillbaka till startsidan</a></p>
 
 </body>
 </html>
