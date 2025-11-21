@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <title>Köttbullar</title>
     <style> 
-h1  { 
-  color: navy;
+
+body {
+    background-color: blueviolet;
+    font-family: Arial, sans-serif;
 }
-body{
-  background-color: blueviolet;
+
+/* Gör att endast rubriken är centrerad */
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+/* Stil för alla stycken/block */
+.box {
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: blueviolet; /* Samma färg som body */
 }
 
     </style>
@@ -17,10 +30,10 @@ body{
 
 <h1>Mitt recept på köttbullar</h1>
 
-<p>Hej! Jag heter Hamze och här är mitt enkla recept på goda köttbullar.</p>
+<p class="box">Hej! Jag heter Hamze och här är mitt enkla recept på goda köttbullar.</p>
 
-<h2>Ingredienser</h2>
-<ul>
+<h2 class="box">Ingredienser</h2>
+<ul class="box">
   <li>500 g köttfärs</li>
   <li>1 ägg</li>
   <li>1 dl ströbröd</li>
@@ -28,15 +41,15 @@ body{
   <li>Salt och peppar</li>
 </ul>
 
-<h2>Gör så här</h2>
-<ol>
+<h2 class="box">Gör så här</h2>
+<ol class="box">
   <li>Blanda ströbröd och mjölk, låt stå i 5 minuter.</li>
   <li>Tillsätt köttfärs, ägg, salt och peppar.</li>
   <li>Rulla till små bollar.</li>
   <li>Stek i smör tills de är gyllenbruna.</li>
 </ol>
 
-<p><a href="index.html">Tillbaka till startsidan</a></p>
+<p class="box"><a href="index.html">Tillbaka till startsidan</a></p>
 
 </body>
 </html>
